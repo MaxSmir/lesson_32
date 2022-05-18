@@ -111,6 +111,7 @@ public:
         p.Rotate(0.0f, m_scale, 0.0f);
         p.SetPerspectiveProj(m_persProjInfo);
 
+
         p.Scale(0.1f, 0.1f, 0.1f);
         p.WorldPos(-6.0f, -2.0f, 10.0f);
         m_pEffect->SetWVP(p.GetWVPTrans());
